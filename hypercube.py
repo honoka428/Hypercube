@@ -57,9 +57,7 @@ class Vertex:
         """Returns all neighbors of a given vertex."""
         return self.neighbors
 
-
 class Hypercube:
-
     def __init__(self):
         self.num_vertices = 0
         self.vertices = []
@@ -90,8 +88,7 @@ class Hypercube:
             new_vertex = Vertex(i)
             self.allverticesandneighbors[name] = new_vertex
             name += 1
-
-
+            
     def get_all_connections(self):
         return self.allverticesandneighbors
 
